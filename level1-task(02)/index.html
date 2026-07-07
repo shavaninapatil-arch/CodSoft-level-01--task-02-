@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shravani Patil — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="top">
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">SP</span>
+      <span class="logo-full">Shravani&nbsp;Patil</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">// computer engineering · pune, india</p>
+      <h1 class="hero-title">Shravani Patil</h1>
+      <p class="hero-tagline">Building calm, useful software for messy real‑world problems.</p>
+      <p class="hero-sub">
+        I'm a computer engineering student who likes turning rough ideas into working
+        prototypes — dashboards, tools, and interfaces that make someone's day a little easier.
+      </p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-primary">Hire Me</a>
+        <a href="projects.html" class="btn btn-ghost">View Projects</a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <div class="hero-photo">
+        <img src="photo.jpg" alt="Photo of Shravani Patil">
+      </div>
+      <div class="hero-photo-frame" aria-hidden="true"></div>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true">
+    <span></span>
+    <p>scroll</p>
+  </div>
+</header>
+
+<main>
+  <!-- ============ QUICK LINKS ============ -->
+  <section class="section" id="quick-links">
+    <p class="section-tag">Explore</p>
+    <h2 class="section-heading">Find your way around</h2>
+    <p class="section-intro">Each section now lives on its own page — click through to explore.</p>
+
+    <div class="skills-grid">
+      <a class="skill-card" href="about.html">
+        <span class="skill-index">01</span>
+        <h3>About</h3>
+        <p>Who I am, what I'm studying, and how I like to work.</p>
+      </a>
+      <a class="skill-card" href="skills.html">
+        <span class="skill-index">02</span>
+        <h3>Skills</h3>
+        <p>The languages and tools I use day to day.</p>
+      </a>
+      <a class="skill-card" href="projects.html">
+        <span class="skill-index">03</span>
+        <h3>Projects</h3>
+        <p>Hackathon builds and practice projects, with screenshots.</p>
+      </a>
+      <a class="skill-card" href="resume.html">
+        <span class="skill-index">04</span>
+        <h3>Resume</h3>
+        <p>Download the full PDF version of my resume.</p>
+      </a>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>&copy; <span id="year"></span> Shravani Patil — Pune, Maharashtra</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="mailto:shavani.na.patil@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/shravani-patil-10g03p214" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

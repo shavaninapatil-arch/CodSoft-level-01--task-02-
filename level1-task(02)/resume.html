@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume — Shravani Patil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header site-header--compact" id="top">
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">SP</span>
+      <span class="logo-full">Shravani&nbsp;Patil</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html" class="active">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-title">
+    <p class="eyebrow">// 04 — resume</p>
+    <h1 class="page-title-heading">Want the full picture?</h1>
+  </div>
+</header>
+
+<main>
+  <section class="section resume-section" id="resume">
+    <p class="section-intro">
+      Download my resume for a complete look at my education, experience, and certifications.
+    </p>
+    <a href="./resume.pdf" download class="btn btn-primary resume-btn">
+      <span>Download Resume (PDF)</span>
+    </a>
+    <p class="resume-note">Replace <code>resume.pdf</code> in this folder with your own file.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>&copy; <span id="year"></span> Shravani Patil — Pune, Maharashtra</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="mailto:shavani.na.patil@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/shravani-patil-10g03p214" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

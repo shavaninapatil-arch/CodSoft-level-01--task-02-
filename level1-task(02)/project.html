@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Shravani Patil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header site-header--compact" id="top">
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">SP</span>
+      <span class="logo-full">Shravani&nbsp;Patil</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-title">
+    <p class="eyebrow">// 03 — projects</p>
+    <h1 class="page-title-heading">Things I've built</h1>
+  </div>
+</header>
+
+<main>
+  <section class="section" id="projects">
+    <p class="section-intro">A few samples of my work — from hackathon prototypes to practice builds.</p>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="https://placehold.co/640x400/0e2a47/e9f1fb?text=SwasthyaNet" alt="Screenshot of the SwasthyaNet dashboard">
+        </div>
+        <div class="project-body">
+          <span class="project-index">01</span>
+          <h3>SwasthyaNet</h3>
+          <p>
+            A multilingual AI dashboard for managing primary and community health centres —
+            tracking medicine stock-outs, patient footfall, bed availability, doctor
+            attendance, and test availability in real time, with a risk-scored facility map
+            and AI-generated recommendations for district admins.
+          </p>
+          <div class="chip-row">
+            <span class="chip">HTML/CSS/JS</span>
+            <span class="chip">Dashboard Design</span>
+            <span class="chip">Hackathon</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="https://placehold.co/640x400/0e2a47/e9f1fb?text=Project+Two" alt="Screenshot of project two">
+        </div>
+        <div class="project-body">
+          <span class="project-index">02</span>
+          <h3>Project Title Two</h3>
+          <p>
+            Short description of what this project does, the problem it solves, and which
+            part of it you're proudest of. Swap this out for your own work.
+          </p>
+          <div class="chip-row">
+            <span class="chip">Tech</span>
+            <span class="chip">Tech</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="https://placehold.co/640x400/0e2a47/e9f1fb?text=Project+Three" alt="Screenshot of project three">
+        </div>
+        <div class="project-body">
+          <span class="project-index">03</span>
+          <h3>Project Title Three</h3>
+          <p>
+            Another short, honest description — what you built, why, and what you learned
+            putting it together.
+          </p>
+          <div class="chip-row">
+            <span class="chip">Tech</span>
+            <span class="chip">Tech</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>&copy; <span id="year"></span> Shravani Patil — Pune, Maharashtra</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="mailto:shavani.na.patil@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/shravani-patil-10g03p214" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Shravani Patil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header site-header--compact" id="top">
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">SP</span>
+      <span class="logo-full">Shravani&nbsp;Patil</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-title">
+    <p class="eyebrow">// 01 — about</p>
+    <h1 class="page-title-heading">A little about me</h1>
+  </div>
+</header>
+
+<main>
+  <section class="section" id="about">
+    <div class="about-grid">
+      <div class="about-photo-wrap">
+        <div class="about-photo">
+          <img src="photo.jpg" alt="Photo of Shravani Patil">
+        </div>
+        <div class="photo-frame" aria-hidden="true"></div>
+      </div>
+
+      <div class="about-content">
+        <p class="about-bio">
+          I'm a computer engineering student with a habit of finishing what I start —
+          from certifications to campus hackathons. I enjoy the front end most: taking a
+          problem statement and turning it into something people can actually click through
+          and understand, then wiring it up to logic that makes it useful.
+        </p>
+        <p class="about-bio">
+          Lately I've been deep in a hackathon project on real-time health centre
+          management — building dashboards that help staff track stock, footfall, and
+          bed availability at a glance. I like projects that sit close to real people
+          and real problems.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Hackathons &amp; workshops</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Languages, EN/HI, always learning more</span>
+          </div>
+        </div>
+
+        <a href="./resume.pdf" download class="btn btn-primary about-resume-btn">Download Resume</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>&copy; <span id="year"></span> Shravani Patil — Pune, Maharashtra</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="mailto:shavani.na.patil@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/shravani-patil-10g03p214" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
